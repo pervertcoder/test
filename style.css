@@ -5,13 +5,7 @@ p{
     color: hwb(180 37% 5%);
     font-style: italic;
 }
-.image{
-    width: 50%;
-    padding: 20px;
-    background-color: black;
-}
-.image2{
-    width: 50%;
-    padding: 20px;
-    background-color: purple;
+img{
+    width: 10%;
+    display: inline-block;
 }
