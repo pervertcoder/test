@@ -1,11 +1,22 @@
 p{
-    font-size: 20px;
+    font-size: 30px;
     font-family: sans-serif;
     font-weight: 100;
-    color: hwb(180 37% 5%);
+    color: pink;
     font-style: italic;
+    text-align: center;
 }
-img{
-    width: 10%;
-    display: inline-block;
+.image{
+    display: flex;
+    /*border: 1px solid black;*/
+    justify-content: space-around;
+}
+.image0, .image1, .image2{
+    /*border: solid 1px black;*/
+    width: 25%;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    padding: auto;
 }
